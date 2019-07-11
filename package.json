@@ -4,13 +4,17 @@
   "description": "The purpose of this project is to learn how to use React and ASP.NET MVC 5",
   "main": "index.js",
   "dependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
     "awesome-typescript-loader": "^5.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "source-map-loader": "^0.2.4",
     "typescript": "^3.5.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^3.3.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
