@@ -78,6 +78,7 @@ namespace ReactAspx.Controllers
                     Session["UserId"] = usr.Id;
                     ViewBag.Email = usr.Email;
                     ViewBag.UserId = usr.Id;
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {
@@ -386,7 +387,7 @@ namespace ReactAspx.Controllers
         //
         // POST: /Account/LogOff
         [HttpGet]
-        [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public ActionResult LogOff()
         {
             Session["Email"] = null;
