@@ -1,0 +1,27 @@
+{
+  "name": "reactaspx",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to learn how to use React and ASP.NET MVC 5",
+  "main": "index.js",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamGrgic/FoodRestServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamGrgic/FoodRestServer/issues"
+  },
+  "homepage": "https://github.com/adamGrgic/FoodRestServer#readme"
+}
